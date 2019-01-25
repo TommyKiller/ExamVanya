@@ -42,12 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Animals\Animals.cs" />
     <Compile Include="Animals\Birds.cs" />
     <Compile Include="Aviary.cs" />
     <Compile Include="Feeding\Carnivorous.cs" />
     <Compile Include="Feeding\FeedType.cs" />
     <Compile Include="Animals\Fish.cs" />
     <Compile Include="Animals\Mammals.cs" />
+    <Compile Include="Feeding\FeedTypes.cs" />
     <Compile Include="Feeding\Herbivorous.cs" />
     <Compile Include="Feeding\Omnivorous.cs" />
     <Compile Include="Feeding\Product.cs" />

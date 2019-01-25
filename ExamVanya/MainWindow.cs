@@ -35,16 +35,21 @@ namespace ExamVanya
             }
         }
 
+        private void UpdateAnimals()
+        {
+            AnimalsList.Items.Clear();
+
+            foreach (Animal animal in ((Aviary)AviariesList.SelectedItem).Animals)
+            {
+                AnimalsList.Items.Add(animal);
+            }
+        }
+
         private void AviariesList_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (AviariesList.SelectedIndex > -1)
             {
-                AnimalsList.Items.Clear();
-
-                foreach(Animal animal in ((Aviary)AviariesList.SelectedItem).Animals)
-                {
-                    AnimalsList.Items.Add(animal);
-                }
+                UpdateAnimals();
             }
         }
 
@@ -74,6 +79,7 @@ namespace ExamVanya
                 if (newAnimalForm.Handled)
                 {
                     ((Aviary)AviariesList.SelectedItem).AddAnimal(newAnimalForm.Animal);
+                    UpdateAnimals();
                 }
             }
         }
