@@ -19,6 +19,9 @@ namespace ExamVanya
         public NewAnimal()
         {
             InitializeComponent();
+
+            UpdateAnimalTypesList();
+            UpdateFeedTypesList();
         }
 
         private void UpdateAnimalTypesList()

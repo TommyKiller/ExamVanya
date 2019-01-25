@@ -10,7 +10,7 @@ namespace MyClassLibrary
     {
         public ID ID { get; private set; }
         public Type AnimalsType { get; private set; }
-        public List<Animal> Animals { get; private set; }
+        public List<Animal> Animals { get; private set; } = new List<Animal>();
         public static List<Aviary> Aviaries { get; set; } = new List<Aviary>();
 
         public Aviary (ID id)
