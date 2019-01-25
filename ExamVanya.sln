@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28516.95
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamVanya", "ExamVanya\ExamVanya.csproj", "{F8995E4B-9262-47E6-9FE3-1AC1671B3CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{6E00A6DC-DE4C-4FE5-82B7-2075C053DCFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8995E4B-9262-47E6-9FE3-1AC1671B3CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8995E4B-9262-47E6-9FE3-1AC1671B3CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8995E4B-9262-47E6-9FE3-1AC1671B3CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8995E4B-9262-47E6-9FE3-1AC1671B3CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E00A6DC-DE4C-4FE5-82B7-2075C053DCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E00A6DC-DE4C-4FE5-82B7-2075C053DCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E00A6DC-DE4C-4FE5-82B7-2075C053DCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E00A6DC-DE4C-4FE5-82B7-2075C053DCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42371784-EA8A-4C68-B948-8FC1046C1F8E}
+	EndGlobalSection
+EndGlobal
