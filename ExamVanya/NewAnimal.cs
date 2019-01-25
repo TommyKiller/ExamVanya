@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,12 @@ using System.Windows.Forms;
 
 namespace ExamVanya
 {
-    public partial class Form1 : Form
+    public partial class NewAnimal : Form
     {
-        public Form1()
+        public bool Handled { get; private set; } = false;
+        public Animal Animal { get; private set; }
+
+        public NewAnimal()
         {
             InitializeComponent();
         }

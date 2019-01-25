@@ -33,5 +33,10 @@ namespace MyClassLibrary
                 }
             }
         }
+
+        public override string ToString()
+        {
+            return "Aviary " + ID.ToString();
+        }
     }
 }
